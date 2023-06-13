@@ -1,0 +1,69 @@
+QVBoxLayout{
+background-color: #fff;
+}
+
+QPushButton {
+background-color: #3B82F6;
+border: none;
+color: #fff;
+border-radius: 15px;
+padding: 8px 15px;
+font-size: 16px;
+}
+
+QPushButton:hover {
+background-color: #1D4ED8;
+}
+
+QDateEdit, QLineEdit, QTextEdit {
+color: #000000;
+background: #EFF6FF;
+border: none;
+border-radius: 4px;
+padding: 10px 13px;
+font-size: 16px;
+}
+
+QDateEdit:focus, QLineEdit:focus, QTextEdit:focus{
+background: #fff;
+border: 1px solid #3B82F6;
+}
+
+QLabel {
+font-size: 16px;
+color: #000000;
+}
+
+QComboBox {
+background: #EFF6FF;
+border-radius: 4px;
+padding: 10px 13px;
+font-size: 16px;
+color: #000000;
+}
+
+QComboBox::drop-down {
+color: #fff;
+border: none;
+width: 15px;
+height: 15px;
+subcontrol-position: right center;
+subcontrol-origin: padding;
+background: transparent;
+image: url("./downarrow.svg");
+right: 10px;
+}
+
+QComboBox::drop-down:on {
+image: url("./uparrow.svg")
+}
+
+QComboBox:on{
+background: #fff;
+border: 1px solid #3B82F6;
+}
+
+QAbstractItemView{
+background: #EFF6FF;
+border-radius: 4px;
+}

@@ -1,0 +1,7 @@
+build/
+setup1.py
+try.py
+geckodriver.log
+venv/
+__pycache__/
+.idea/
